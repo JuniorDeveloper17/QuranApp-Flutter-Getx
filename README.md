@@ -48,3 +48,4 @@ priview :
 ![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/a.jpg)
 ![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/aa.jpg)
 ![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/aaa.jpg)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/aaaa.jpg)
