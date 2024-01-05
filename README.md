@@ -11,7 +11,8 @@ fitur fitur yang sekarang tersedia adalah
 2. Doa sehari hari
 3. Bacaan Tahlil
 4. Jadwal Sholat perhari berdasarkan kota anda (sedang dalam pengembangan untuk jadwal perbulan)
-5. ....prosses
+5. Kompas cari arah kiblat
+6. ....prosses
 
 
 
@@ -44,6 +45,6 @@ Terima kasih telah mengunjungi repositori ini dan selamat mencoba, "Happiness wi
 
 priview : 
 
-![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/priview/Screenshot_2024-01-02-12-13-31-488_com.facebook.litejej.jpg)
-![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/priview/Screenshot_2024-01-02-12-13-31-488_com.facebook.liteejj.jpg)
-![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/priview/Screenshot_2024-01-02-12-13-31-488_com.facebook.lite-picsay.jpg)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/a.jpg)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/aa.jpg)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/aaa.jpg)
