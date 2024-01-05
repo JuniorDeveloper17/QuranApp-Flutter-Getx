@@ -1,16 +1,47 @@
-# quranapp
+**halo selamat datang di repositori saya**
 
-A new Flutter project.
+ini adalah project quran APP sederhana yang saya buat dengan menggunakan flutter, mengimplementasikan crud Api dengan http request (online).
 
-## Getting Started
+dengan ui yang mudah untuk di gunakan dan tentunya cantik.
 
-This project is a starting point for a Flutter application.
+fitur fitur yang sekarang tersedia adalah
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Quran(juz, surah, pemutaran audio ayat Quran, tambahkan terakhir di baca, tafsir Quran lengkap)
+2. Doa sehari hari
+3. Bacaan Tahlil
+4. Jadwal Sholat perhari berdasarkan kota anda (sedang dalam pengembangan untuk jadwal perbulan)
+5. ....prosses
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+🕹 Cara Penggunaan
+
+Syarat Awal
+
+pastikan flutter versi 3 keatas sudah terinstal di perangkat komputer anda. Anda dapat mengunduhnya disini [get statrted flutter](https://flutter.dev/?gclid=CjwKCAiA-bmsBhAGEiwAoaQNmsDWBfo5H_c6fjGWHzfcJ-Iei1lm2BWoIuqZ4ATfCUykH8E0xV5XwBoCPnwQAvD_BwE&gclsrc=aw.ds)
+
+Langkah 1: Clone Repositori
+Buka terminal atau command prompt di komputer.
+
+Gunakan perintah berikut untuk mengklon repositori ini:
+
+git clone https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx.git
+
+masuk ke kode editor dan pastekan perintah di atas ke terminal
+
+
+Langkah 2: Jalankan flutter pub get
+
+dan selamat mencobanya.
+
+🐱‍🏍 Akhir
+
+
+Terima kasih telah mengunjungi repositori ini dan selamat mencoba, "Happiness within a collection of codes. Enjoy!"..
+
+
+priview : 
+
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231230_004002975.png)
