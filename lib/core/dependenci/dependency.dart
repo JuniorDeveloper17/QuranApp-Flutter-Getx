@@ -1,0 +1,25 @@
+import 'package:get/get_core/get_core.dart';
+import 'package:get/get_instance/get_instance.dart';
+import 'package:quranapp/core/service/audioService.dart';
+import 'package:quranapp/home/controller/homeController.dart';
+import 'package:quranapp/setting/controller/settingController.dart';
+import 'package:quranapp/sholat/controller/sholatController.dart';
+import 'package:quranapp/splashscreen/controller/splashController.dart';
+import 'package:quranapp/tabBarItem/doa/controller/doaController.dart';
+import 'package:quranapp/tabBarItem/hadis/controller/hadisController.dart';
+import 'package:quranapp/tabBarItem/juz/controller/juzController.dart';
+import 'package:quranapp/tabBarItem/surah/controller/surahController.dart';
+import 'package:quranapp/tabBarItem/tahlil/controller/tahlilController.dart';
+import '../../auth/controller/authController.dart';
+
+final splash = Get.put(SplashController());
+final auth = Get.put(AuthController());
+final home = Get.put(HomeController(), permanent: true);
+final surah = Get.put(SurahController());
+final hadis = Get.put(HadisController());
+final tahlil = Get.put(TahlilController());
+final doa = Get.put(DoaController());
+final audio = Get.put(AudioService(), permanent: true);
+final juz = Get.put(JuzController());
+final sholat = Get.put(SholatController());
+final setting = Get.put(SettingController());
