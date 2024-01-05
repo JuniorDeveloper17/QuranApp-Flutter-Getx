@@ -44,4 +44,6 @@ Terima kasih telah mengunjungi repositori ini dan selamat mencoba, "Happiness wi
 
 priview : 
 
-![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231230_004002975.png)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/priview/Screenshot_2024-01-02-12-13-31-488_com.facebook.litejej.jpg)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/priview/Screenshot_2024-01-02-12-13-31-488_com.facebook.liteejj.jpg)
+![alt text](https://github.com/JuniorDeveloper17/QuranApp-Flutter-Getx/blob/master/assets/priview/Screenshot_2024-01-02-12-13-31-488_com.facebook.lite-picsay.jpg)
