@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quranapp/core/theme/theme.dart';
+import '../../../core/dependenci/dependency.dart';
 import '../../../data/model/detail_hadis_model.dart';
 
 class ContentHadis extends StatelessWidget {
@@ -28,8 +29,8 @@ class ContentHadis extends StatelessWidget {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(5),
                             gradient: LinearGradient(colors: [
-                             blue1,
-                            blue2,
+                              blue1,
+                              blue2,
                             ])),
                         child: Row(
                             mainAxisAlignment: MainAxisAlignment.start,
@@ -44,10 +45,19 @@ class ContentHadis extends StatelessWidget {
                               Expanded(child: SizedBox()),
                               Icon(Icons.bookmark_add, size: 25, color: white),
                               SizedBox(width: 20),
-                              Icon(
-                                Icons.share,
-                                size: 25,
-                                color: white,
+                              IconButton(
+                                onPressed: () {
+                                  home.shareMe(
+                                      surah:
+                                          'Hadis riwayat ${data.name}  nomor ${data.hadiths?[index].number}',
+                                      ayah: '${data.hadiths?[index].arab}',
+                                      arti: '${data.hadiths?[index].id}');
+                                },
+                                icon: Icon(
+                                  Icons.share,
+                                  size: 25,
+                                  color: white,
+                                ),
                               )
                             ]),
                       ),

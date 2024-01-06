@@ -66,7 +66,12 @@ class DoaPage extends StatelessWidget {
                                   ),
                                 ),
                                 IconButton(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      home.shareMe(
+                                          surah: '${data[index]?.title}',
+                                          ayah: '${data[index]?.arabic}',
+                                          arti: '${data[index]?.latin}');
+                                    },
                                     icon: Icon(
                                       Icons.share,
                                       color: Colors.lightBlue,

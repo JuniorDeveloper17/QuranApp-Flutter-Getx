@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quranapp/data/model/surah_m.dart' as model;
+import '../../../core/dependenci/dependency.dart';
 import '../../../core/theme/theme.dart';
 
 class TafsirTop extends StatelessWidget {
@@ -18,9 +19,16 @@ class TafsirTop extends StatelessWidget {
           borderRadius: BorderRadius.circular(10), color: grey200),
       child: Row(
         children: [
-       
           Expanded(child: SizedBox()),
-          Icon(Icons.share_outlined, color: blue1),
+          IconButton(
+              onPressed: () {
+                home.shareMe(
+                    surah:
+                        '${data.name?.transliteration?.id}  ayah ${data.verses![index].number?.inSurah}',
+                    ayah: '${data.verses?[index].text?.arab}',
+                    arti: '${data.verses?[index].tafsir?.id.long}');
+              },
+              icon: Icon(Icons.share_outlined, color: blue1)),
           SizedBox(width: 20),
           InkWell(onTap: () {}, child: Icon(Icons.bookmark_add, color: blue2)),
         ],

@@ -47,10 +47,20 @@ class ContentSurah extends StatelessWidget {
                               ),
                             )),
                         SizedBox(width: 15),
-                        Icon(
-                          Icons.share,
-                          color: black,
-                          size: 25,
+                        IconButton(
+                          onPressed: () {
+                            home.shareMe(
+                                surah:
+                                    'juz ${data?.juz}  ayah ${data?.verses![index].number?.inQuran}',
+                                ayah: '${data?.verses?[index].text?.arab}',
+                                arti:
+                                    '${data?.verses?[index].translation?.id}');
+                          },
+                          icon: Icon(
+                            Icons.share,
+                            color: black,
+                            size: 25,
+                          ),
                         ),
                       ],
                     ),

@@ -25,10 +25,11 @@ class SettingController extends GetxController {
           messege: 'tuliskan saran anda terlebih dahulu', isTrue: false);
     } else {
       try {
-        var whatsappUrl = Uri.parse(
-            "https://whatsapp://send?phone=${085369530868}" +
-                "&text=${Uri.encodeComponent("${messege.text}")}");
+        var whatsappUrl = Uri.parse("whatsapp://send?phone=${085369530868}" +
+            "&text=${Uri.encodeComponent("${messege.text}")}");
         launchUrl(whatsappUrl);
+        FocusScope.of(Get.context as BuildContext)
+            .requestFocus(new FocusNode());
       } catch (e) {}
     }
   }

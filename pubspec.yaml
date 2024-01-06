@@ -52,12 +52,14 @@ dependencies:
   flutter_slider_drawer: ^2.1.3
   shimmer: ^3.0.0
   flutter_share_me: 1.4.0
+  share_plus: 
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  url_launcher: ^6.1.14
+  url_launcher: 6.1.1
+
 
 dev_dependencies:
   flutter_test:
