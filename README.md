@@ -12,7 +12,8 @@ fitur fitur yang sekarang tersedia adalah
 3. Bacaan Tahlil
 4. Jadwal Sholat perhari berdasarkan kota anda (sedang dalam pengembangan untuk jadwal perbulan)
 5. Kompas cari arah kiblat
-6. ....prosses
+6. Fitur Share(bagikan surah ayah dan arti,  bagikan tafsir Quran, bagaikan doa doa, bagikan hadis) ke teman anda!
+7. ....prosses
 
 
 
